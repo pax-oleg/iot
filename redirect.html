@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+<style>
+
+form { 
+margin: 0 auto; 
+width:250px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+    <form>  
+	
+        Password: <input type="password" id="password" />
+		<button type="button" onclick="rdr()">Submit</button>
+
+	    <script>
+		function rdr(){
+		if (document.getElementById('password').value == 'hello') 
+		window.location.replace('http://www.w3schools.com'); 
+		}
+		</script>
+        
+    </form>
+
+</body>
+
+</html>
